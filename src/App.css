@@ -1,5 +1,8 @@
 .App {
+  height: 100vh;
   text-align: center;
+  background-color: beige;
+  position: relative;
 }
 
 .App-logo {
@@ -32,7 +35,92 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.img__button {
+  margin-top: 50px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow,
+.green,
+.blue {
+  margin: 3px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+
+
+.blue:hover {
+  background-color: #e43d3d;
+  color: white;
+}
+
+.green:hover {
+  background-color: #e43d3d;
+  color: white;
+}
+
+.yellow:hover {
+  background-color: #e43d3d;
+  color: white;
+}
+
+.img__button img {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px #888888;
+}
+
+
+
+.nav__ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  background-color: bisque;
+  margin: 0;
+  padding: 30px;
+}
+
+.nav__ul a {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+a {
+  margin: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: darkgray;
+  color: white;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
 }
